@@ -10,5 +10,5 @@ validate :start_end_check
     self.start_date < self.end_date
   end
 end
-validates :sche_memo, length: { maximum: 100}
+validates :sche_memo, length: { maximum: 500}
 end
